@@ -10,5 +10,8 @@
   "devDependencies": {
     "dotenv": "^16.0.3",
     "eslint-config-lint": "https://github.com/criszelaya24/eslint-config.git"
+  },
+  "scripts": {
+    "mfa": "node index.js"
   }
 }

@@ -20,7 +20,8 @@ const mfaPromptCode = () => {
 
 const updateAWSCredentials = async () => {
     const TokenCode = await mfaPromptCode();
-    const profileName = `${process.env.AWS_PROFILE ?? 'default'}`;
+    const profileName = `${process.env.AWS_PROFILE_NAME ?? 'default'}`;
+
     const command = new GetSessionTokenCommand({
         SerialNumber: `${process.env.SERIAL_AWS_NUMBER}`,
         TokenCode,
