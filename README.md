@@ -17,6 +17,8 @@ If you want to setup locally this server, you need the following.
     - npm run install / yarn install
     - npm run mfa / yarn mfa
 
+▶️ Once the script has finished, you just need to export the new profile created, should be the name of your ***AWS_PROFILE_NAME_VALUE-mfa***
+
 # User stories
 ```
 As a developer,
